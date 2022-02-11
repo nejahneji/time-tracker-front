@@ -1,0 +1,12 @@
+.period {
+  display: flex;
+  border-bottom: 1px solid #60b669;
+  border-top: 1px solid #60b669;
+  justify-content: space-between;
+  padding: 20px 10px;
+  .period-times {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+}

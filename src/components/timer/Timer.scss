@@ -1,0 +1,55 @@
+.timer {
+  .header-timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      color: #415c73;
+    }
+    .config-timer {
+      // width: 30%;
+      display: flex;
+      gap: 20px;
+      justify-content: space-around;
+      align-items: center;
+      .stop {
+        width: 86px;
+        height: 38px;
+        background-color: white;
+        color: #cc5252;
+        border: 1px solid #cc5252;
+        box-sizing: border-box;
+        border-radius: 5px;
+        i {
+          margin: 0 5px;
+        }
+      }
+      .start {
+        width: 126px;
+        height: 38px;
+        background-color: white;
+        border: 1px solid #60b669;
+        box-sizing: border-box;
+        border-radius: 5px;
+        i {
+          margin: 0 5px;
+        }
+      }
+      h3 {
+        color: #60b669;
+      }
+    }
+  }
+  .footer-timer {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    h2 {
+      color: #6a7480;
+    }
+    h3 {
+      color: #60b669;
+    }
+  }
+}
